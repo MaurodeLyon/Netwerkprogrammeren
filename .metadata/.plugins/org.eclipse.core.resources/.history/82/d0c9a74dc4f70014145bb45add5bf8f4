@@ -1,0 +1,16 @@
+package opdr1;
+
+public class Number implements Runnable {
+
+	private int number = 0;
+
+	public Number() {
+		
+	}
+
+	@Override
+	public void run() {
+		number = number + 1;
+	}
+
+}

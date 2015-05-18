@@ -1,0 +1,20 @@
+package test1;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import javax.xml.crypto.Data;
+
+public class GetTime20 extends Thread{
+
+	public void run(){
+		Data rightNow;
+		Locale currentLocale;
+		DateFormat timeFormatter;
+		DateFormat dateFormatter;
+		String timeOutput;
+		String dateOutput;
+		
+	}
+}

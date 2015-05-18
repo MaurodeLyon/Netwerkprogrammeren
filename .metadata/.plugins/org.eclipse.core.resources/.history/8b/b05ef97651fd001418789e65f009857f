@@ -1,0 +1,22 @@
+package test2;
+
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		addThreadsToPool();
+
+	}
+	
+	public static void addThreadsToPool(){
+		ScheduledThreadPoolExecutor eventPool = new ScheduledThreadPoolExecutor(5);
+		
+		eventPool.scheduleAtFixedRate(new CheckSystemTime(), 0, 2, SECONDS);
+		eventPool.scheduleAtFixedRate(new PerformanSystemCheck("Mail"), 0, 2, SECONDS);
+		eventPool.scheduleAtFixedRate(new PerformanSystemCheck("Calandar"), 0, 2, SECONDS);
+		
+	}
+
+}

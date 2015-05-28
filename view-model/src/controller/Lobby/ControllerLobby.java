@@ -27,6 +27,6 @@ public class ControllerLobby {
 	}
 
 	public void switchPaneltoGame() {
-		model.switchPaneltoGame();
+		model.getGameState().switchtoGame();
 	}
 }

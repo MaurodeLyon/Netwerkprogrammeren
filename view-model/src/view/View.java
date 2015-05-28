@@ -10,6 +10,5 @@ public class View extends JFrame {
 		super("Tempus Mori");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setResizable(false);
-		setFocusable(false);
 	}
 }

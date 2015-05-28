@@ -41,3 +41,28 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.lock
+.metadata/.mylyn/.taskListIndex/segments.gen
+*.zip
+.metadata/.plugins/org.eclipse.core.resources/.history/55/00bcd4fc2d03001518dae2df3d5fbf2a
+*.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/H30/org.eclipse.egit.core/GitProjectData.properties
+*.properties
+.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+.metadata/.plugins/org.eclipse.core.resources/.history/df/8012d1fc2d03001518dae2df3d5fbf2a
+*.markers
+.metadata/.plugins/org.eclipse.core.resources/.projects/H30/org.eclipse.jdt.core/state.dat
+*.dat
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+*.prefs
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+*.xml
+.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+*.txt
+.metadata/version.ini
+.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+*.xmi
+.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+*.resources
+.metadata/.mylyn/.taskListIndex/segments_1

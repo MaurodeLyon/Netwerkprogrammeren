@@ -7,14 +7,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			Client client = new Client();
+			new Client();
 		} catch (UnknownHostException e1) {
 			e1.printStackTrace();
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		try {
-			Server server = new Server();
+			new Server();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
